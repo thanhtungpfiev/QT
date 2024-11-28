@@ -1,0 +1,15 @@
+/**
+ * \author thanhtung thanhtungpfiev@gmail.com
+ *
+ * \date %DATE% - %YEAR%
+ *
+ * \copyright %YEAR% %USER%. All rights reserved.
+ *
+ * \filename %FILENAME%
+ *
+ * \class %CLASS%
+ *
+ * \brief
+ *
+ *
+ */ 
