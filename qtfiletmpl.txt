@@ -1,9 +1,9 @@
 /*****************************************************************************
- * \author thanhtung thanhtungpfiev@gmail.com
+ * \author %USER% - thanhtungpfiev@gmail.com
  *
- * \date %DATE% - %YEAR%
+ * \date %DATE%
  *
- * \copyright %YEAR% %USER%. All rights reserved.
+ * \copyright %YEAR% - thanhtungpfiev@gmail.com. All rights reserved.
  *
  * \filename %FILENAME%
  *
