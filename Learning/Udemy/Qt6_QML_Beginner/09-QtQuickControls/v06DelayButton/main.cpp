@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
         &app,
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
-    engine.loadFromModule("v04CB", "Main");
+    engine.loadFromModule("v06DelayButton", "Main");
 
     return app.exec();
 }

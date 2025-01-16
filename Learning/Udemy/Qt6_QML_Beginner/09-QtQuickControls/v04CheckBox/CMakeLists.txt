@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(v06DelayBu VERSION 0.1 LANGUAGES CXX)
+project(v04CheckBox VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -8,12 +8,12 @@ find_package(Qt6 REQUIRED COMPONENTS Quick)
 
 qt_standard_project_setup(REQUIRES 6.5)
 
-qt_add_executable(appv06DelayBu
+qt_add_executable(appv04CheckBox
     main.cpp
 )
 
-qt_add_qml_module(appv06DelayBu
-    URI v06DelayBu
+qt_add_qml_module(appv04CheckBox
+    URI v04CheckBox
     VERSION 1.0
     QML_FILES
         Main.qml
@@ -22,20 +22,20 @@ qt_add_qml_module(appv06DelayBu
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
-set_target_properties(appv06DelayBu PROPERTIES
-#    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appv06DelayBu
+set_target_properties(appv04CheckBox PROPERTIES
+#    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appv04CheckBox
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
     MACOSX_BUNDLE TRUE
     WIN32_EXECUTABLE TRUE
 )
 
-target_link_libraries(appv06DelayBu
+target_link_libraries(appv04CheckBox
     PRIVATE Qt6::Quick
 )
 
 include(GNUInstallDirs)
-install(TARGETS appv06DelayBu
+install(TARGETS appv04CheckBox
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}

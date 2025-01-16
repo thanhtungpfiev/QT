@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
         &app,
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
-    engine.loadFromModule("v06DelayBu", "Main");
+    engine.loadFromModule("v04CheckBox", "Main");
 
     return app.exec();
 }

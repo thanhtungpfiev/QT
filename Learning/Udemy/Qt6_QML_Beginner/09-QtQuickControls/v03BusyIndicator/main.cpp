@@ -1,7 +1,7 @@
 /*****************************************************************************
  * author Admin - thanhtungpfiev@gmail.com
  *
- * date 1/16/2025
+ * date 1/14/2025
  *
  * copyright 2025 - thanhtungpfiev@gmail.com. All rights reserved.
  *
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
         &app,
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
-    engine.loadFromModule("v05ComBox", "Main");
+    engine.loadFromModule("v03BusyIndicator", "Main");
 
     return app.exec();
 }
